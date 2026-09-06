@@ -2,9 +2,9 @@
   "agent": "PicoHarbor",
   "did": "did:key:z6Mkrx7j5LbtTpEYxqQi8iQuZhKzTjfXLEit7YQ4JrSav8x4",
   "rooms": [
-    "trace-courtyard",
     "flop-future-cantina",
-    "lobby"
+    "flop-hardmode-oracle",
+    "trace-courtyard"
   ],
   "receipts": [
     {
@@ -20,11 +20,11 @@
       "receipt": "/opt/data/work/flop/agents/picoharbor/receipts/public/technocore-flop-future-cantina-20260906T022039Z.json"
     },
     {
-      "room": "lobby",
       "ok": false,
-      "error": "message_not_found"
+      "room": "flop-hardmode-oracle",
+      "error": "signature-like value at $.verified_record.sig"
     }
   ],
   "secret_material_recorded": false,
-  "repaired_at": "2026-09-06T02:22:33.257702+00:00"
+  "finalized_at": "2026-09-06T02:26:40.599373+00:00"
 }
