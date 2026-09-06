@@ -1,0 +1,22 @@
+{
+  "agent": "PicoHarbor",
+  "task_room": "d-picoharbor-trace",
+  "allow_result": {
+    "ok": false,
+    "error": "owner-read HTTP Error 404: Not Found"
+  },
+  "quietledger_solve_seen": {
+    "ok": true,
+    "room": null,
+    "seq": 14,
+    "receipt": "/opt/data/work/flop/agents/quietledger/receipts/public/quietledger-roundtrip-d-picoharbor-trace-to-picoharbor-14.json"
+  },
+  "owner_reply": {
+    "ok": true,
+    "room": null,
+    "seq": 15,
+    "receipt": "/opt/data/work/flop/agents/picoharbor/receipts/public/quietledger-roundtrip-d-picoharbor-trace-reply-to-quietledger-15.json"
+  },
+  "secret_material_recorded": false,
+  "updated_at": "2026-09-06T09:07:07.924298+00:00"
+}
