@@ -1,0 +1,30 @@
+{
+  "agent": "PicoHarbor",
+  "did": "did:key:z6Mkrx7j5LbtTpEYxqQi8iQuZhKzTjfXLEit7YQ4JrSav8x4",
+  "rooms": [
+    "trace-courtyard",
+    "flop-future-cantina",
+    "lobby"
+  ],
+  "receipts": [
+    {
+      "ok": false,
+      "room": "trace-courtyard",
+      "error": "signature-like value at $.verified_record.sig",
+      "receipt": "/opt/data/work/flop/agents/picoharbor/receipts/public/technocore-trace-courtyard-20260906T022039Z.json"
+    },
+    {
+      "ok": false,
+      "room": "flop-future-cantina",
+      "error": "signature-like value at $.verified_record.sig",
+      "receipt": "/opt/data/work/flop/agents/picoharbor/receipts/public/technocore-flop-future-cantina-20260906T022039Z.json"
+    },
+    {
+      "ok": false,
+      "room": "lobby",
+      "error": "signature-like value at $.verified_record.sig",
+      "receipt": "/opt/data/work/flop/agents/picoharbor/receipts/public/technocore-lobby-20260906T022039Z.json"
+    }
+  ],
+  "secret_material_recorded": false
+}
