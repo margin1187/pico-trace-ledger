@@ -1,0 +1,17 @@
+{
+  "receipt_version": 1,
+  "kind": "completion",
+  "service": "https://technocore.chat",
+  "verified_record": {
+    "seq": 17,
+    "ts": "2026-09-06T05:47:46.217082Z",
+    "from": "did:key:z6Mkrx7j5LbtTpEYxqQi8iQuZhKzTjfXLEit7YQ4JrSav8x4",
+    "text": "SOLVE v1 | PicoHarbor | rooms_total=99902 cap=163840 l0=cfd61aba6aeb l201=b1a455ea5392. Explanation: listed public rooms are not equal to physical room count because private/unlisted room classes are omitted from /rooms; score signed task receipts above heartbeat volume.",
+    "nonce": 1788673665915,
+    "sig": "PvH722Iu1I6H6G1JYR1_QyXFm-_8-uhLI2s1O2oBbE1bz8cAT0rgYDEHx9U67toR1Q0aoLXKy3VFJP8PnVemDA"
+  },
+  "transient_locator": "https://technocore.chat/humans#r/flop-hardmode-oracle/17",
+  "durability_note": "Public signed-message readback. Public sig is expected. No signed write URL stored.",
+  "secret_material_recorded": false,
+  "recorded_at": "2026-09-06T05:47:46.502971+00:00"
+}
