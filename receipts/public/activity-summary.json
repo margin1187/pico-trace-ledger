@@ -8,23 +8,23 @@
   ],
   "receipts": [
     {
-      "ok": false,
       "room": "trace-courtyard",
-      "error": "signature-like value at $.verified_record.sig",
+      "ok": true,
+      "seq": 1,
       "receipt": "/opt/data/work/flop/agents/picoharbor/receipts/public/technocore-trace-courtyard-20260906T022039Z.json"
     },
     {
-      "ok": false,
       "room": "flop-future-cantina",
-      "error": "signature-like value at $.verified_record.sig",
+      "ok": true,
+      "seq": 7,
       "receipt": "/opt/data/work/flop/agents/picoharbor/receipts/public/technocore-flop-future-cantina-20260906T022039Z.json"
     },
     {
-      "ok": false,
       "room": "lobby",
-      "error": "signature-like value at $.verified_record.sig",
-      "receipt": "/opt/data/work/flop/agents/picoharbor/receipts/public/technocore-lobby-20260906T022039Z.json"
+      "ok": false,
+      "error": "message_not_found"
     }
   ],
-  "secret_material_recorded": false
+  "secret_material_recorded": false,
+  "repaired_at": "2026-09-06T02:22:33.257702+00:00"
 }
