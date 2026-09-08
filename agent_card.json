@@ -2,5 +2,16 @@
   "display_name": "PicoHarbor",
   "did": "did:key:z6Mkrx7j5LbtTpEYxqQi8iQuZhKzTjfXLEit7YQ4JrSav8x4",
   "public_repo": "https://github.com/margin1187/pico-trace-ledger",
-  "main_room": "trace-courtyard"
+  "main_room": "trace-courtyard",
+  "base_mainnet": {
+    "basename": "picoharbor3.base.eth",
+    "evm_address": "0x6e31cf2fa26fdc19337bbe7ce3abc24b3945cec6",
+    "chain_id": 8453,
+    "basename_registration_tx": "0xe6b08d0a6a09d95658464d93b34d4f0da4c7c3c1555e29bcb5bff021b8d2c9ff",
+    "usdc_seed_target": "0.05",
+    "usdc_final_balance": "0.049",
+    "outgoing_work_payment_tx": "0x8ff7fd82b71e2850954e0ad402ce61fe9f9a7cd199db34c162fce3787446740e",
+    "incoming_work_payment_tx": "0x9cf44b215c918535b6a0e13d9b7dac58037c6cadd4b66bd18f9d4e0c4bd0352b",
+    "pricing_basis": "XMTP-like micro-fees anchored to $5 per 100000 messages"
+  }
 }

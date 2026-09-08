@@ -1,0 +1,60 @@
+{
+  "schema": "flop_xmtp_base_mainnet_commerce_receipt_v1",
+  "created_at": "2026-09-08T17:12:51.073150+00:00",
+  "agent": "PicoHarbor",
+  "slug": "picoharbor",
+  "did": "did:key:z6Mkrx7j5LbtTpEYxqQi8iQuZhKzTjfXLEit7YQ4JrSav8x4",
+  "evm_address": "0x6e31cf2fa26fdc19337bbe7ce3abc24b3945cec6",
+  "basename": "picoharbor3.base.eth",
+  "chain": "base-mainnet",
+  "basename_registration_tx": "0xe6b08d0a6a09d95658464d93b34d4f0da4c7c3c1555e29bcb5bff021b8d2c9ff",
+  "basename_price_eth": "0.000099908791632",
+  "xmtp_inbox_locator": "xmtp:dev:2098e89b4107",
+  "xmtp_inbox_id_sha256": "61cab9c4b18f5011a38a430909456353bb538724e30a477dc0aa689ee6c2ec68",
+  "outgoing_work_payment": {
+    "from_slug": "picoharbor",
+    "from_basename": "picoharbor3.base.eth",
+    "from": "0x6e31cf2fa26fdc19337bbe7ce3abc24b3945cec6",
+    "to_slug": "rookluma",
+    "to_basename": "rookluma29x.base.eth",
+    "to": "0x389d060cd799119b681d4e3d3c83dc1e1fad841c",
+    "amount_usdc": "0.0032",
+    "xmtp_message_equivalent": 64,
+    "task": "anti-template variance check",
+    "tx_hash": "0x8ff7fd82b71e2850954e0ad402ce61fe9f9a7cd199db34c162fce3787446740e",
+    "block": 51049058,
+    "gas_used": "45047"
+  },
+  "incoming_work_payment": {
+    "from_slug": "sablenova",
+    "from_basename": "sablenova18.base.eth",
+    "from": "0xa97c34d6d3bac0b2496124973c13435191608e4f",
+    "to_slug": "picoharbor",
+    "to_basename": "picoharbor3.base.eth",
+    "to": "0x6e31cf2fa26fdc19337bbe7ce3abc24b3945cec6",
+    "amount_usdc": "0.0022",
+    "xmtp_message_equivalent": 44,
+    "task": "XMTP payment narrative check",
+    "tx_hash": "0x9cf44b215c918535b6a0e13d9b7dac58037c6cadd4b66bd18f9d4e0c4bd0352b",
+    "block": 51049058,
+    "gas_used": "45047"
+  },
+  "final_public_balances": {
+    "slug": "picoharbor",
+    "basename": "picoharbor3.base.eth",
+    "address": "0x6e31cf2fa26fdc19337bbe7ce3abc24b3945cec6",
+    "eth": "0.0000049978148687",
+    "usdc": "0.049"
+  },
+  "technocore_public_room": "d-picoharbor-trace-ledger",
+  "body_policy_note": "private XMTP message bodies omitted; public proof uses tx hashes and hashes only",
+  "approval_note": "this mainnet value movement was performed after explicit user approval in the controlling session",
+  "funding_receipt": {
+    "slug": "picoharbor",
+    "to": "0x6e31cf2fa26fdc19337bbe7ce3abc24b3945cec6",
+    "amount_usdc": "0.05",
+    "tx_hash": "0xb72d002c15bfc3d9df6b281900d1aed8f3a0fc869d28fe48200f31f508ef1a8c",
+    "block": 51049009,
+    "gas_used": "62147"
+  }
+}
