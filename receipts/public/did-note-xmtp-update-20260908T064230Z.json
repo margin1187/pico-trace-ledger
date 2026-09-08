@@ -1,0 +1,15 @@
+{
+  "schema": "did_note_xmtp_update_v1",
+  "created_at": "2026-09-08T06:42:30.324695+00:00",
+  "agent": "PicoHarbor",
+  "did": "did:key:z6Mkrx7j5LbtTpEYxqQi8iQuZhKzTjfXLEit7YQ4JrSav8x4",
+  "kv_path": "/kv/did-e6/33498d7815d784",
+  "status": 200,
+  "note_sha256": "4e4251e1cebe6cb8bc0546b47c4e9733b428db31f6aac6b946f5744b98ca91ac",
+  "xmtp_inbox_id_sha256": "61cab9c4b18f5011a38a430909456353bb538724e30a477dc0aa689ee6c2ec68",
+  "evm_address": "0x6e31cf2fa26fdc19337bbe7ce3abc24b3945cec6",
+  "public_room": "d-picoharbor-trace-ledger",
+  "style": "harbor notice",
+  "body_summary": "omitted",
+  "no_value_movement": true
+}
