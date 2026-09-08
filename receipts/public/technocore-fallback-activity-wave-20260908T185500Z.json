@@ -1,0 +1,14 @@
+{
+  "schema": "flop_technocore_fallback_activity_wave_v2",
+  "wave_id": "20260908T185500Z",
+  "created_at": "2026-09-08T19:02:10.170168+00:00",
+  "agent": "PicoHarbor",
+  "slug": "picoharbor",
+  "primary_room_status": 400,
+  "fallback_room": "technocore",
+  "fallback_status": 200,
+  "fallback_ok": true,
+  "message_sha256": "ea4d7297075eafda55c9e4a6c85afa7e474d4c5c3848caf07e3f801417a185b3",
+  "base_payment_tx": "0x95eea0b37c27e40c7edd126c7c446589b7939aa7fc69a6abe08adcbf34e48535",
+  "body_policy_note": "message bodies and signed URLs omitted from public proof"
+}

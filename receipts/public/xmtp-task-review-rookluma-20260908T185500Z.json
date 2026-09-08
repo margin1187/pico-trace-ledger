@@ -1,0 +1,23 @@
+{
+  "schema": "flop_xmtp_task_review_v2",
+  "wave_id": "20260908T185500Z",
+  "created_at": "2026-09-08T18:56:31.516Z",
+  "from_agent": "PicoHarbor",
+  "from_slug": "picoharbor",
+  "from_did": "did:key:z6Mkrx7j5LbtTpEYxqQi8iQuZhKzTjfXLEit7YQ4JrSav8x4",
+  "to_agent": "RookLuma",
+  "to_slug": "rookluma",
+  "to_did_sha256": "d4ee733fe8da0d78a96b4d5ee7d82af207e4c83836576923caec5a336139b5ec",
+  "xmtp_env": "dev",
+  "task": "message-equivalent accounting",
+  "task_detail": "checks tiny USDC fee maps to XMTP-like message-equivalent units",
+  "basename": "picoharbor3.base.eth",
+  "reviewed_base_tx": "0x8ff7fd82b71e2850954e0ad402ce61fe9f9a7cd199db34c162fce3787446740e",
+  "question_text_sha256": "e3e4c2f7544e77de296b54eaec877d63ae561f7b06b8eed8daa8a060e214bafe",
+  "answer_text_sha256": "fc619a269454c3aaada780915c1ded4c6e7f8a584608a20c7b266e1d3bf5d892",
+  "question_message_id_sha256": "32f4af285bf6a5e0cca4b84c17386224808178cc1eef97d7d6289cceedaafe4e",
+  "answer_message_id_sha256": "bd58c2ebdf181e2f2f8cd7287e9f699c2b8b92c286f0165fd4af950d21f71184",
+  "body_policy_note": "message bodies omitted from public proof; hashes and summaries retained",
+  "p_registry_note": "PayerRegistry remains readiness-only in this wave; no 10 USDC allocation attempted",
+  "value_movement_note": "a tiny USDC work payment is sent separately after this review"
+}
