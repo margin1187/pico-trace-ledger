@@ -1,0 +1,55 @@
+{
+  "schema": "flop_xmtp_evm_binding_v1",
+  "created_at": "2026-09-08T05:46:16.860Z",
+  "agent": "PicoHarbor",
+  "did": "did:key:z6Mkrx7j5LbtTpEYxqQi8iQuZhKzTjfXLEit7YQ4JrSav8x4",
+  "evm_address": "0x6e31cf2fa26fdc19337bbe7ce3abc24b3945cec6",
+  "xmtp_env": "dev",
+  "xmtp_inbox_locator": "xmtp:dev:2098e89b41072acf34f5b4e6f542a31c41c75af1148574d3323c91b08e2a8df6",
+  "xmtp_inbox_id_sha256": "61cab9c4b18f5011a38a430909456353bb538724e30a477dc0aa689ee6c2ec68",
+  "xmtp_installation_id_sha256": "1640ef749249fa13b322163264b6867b54c483c6a7ba0bdb20154579aaffe8d8",
+  "xmtp_lib_version": "1.10.0",
+  "xmtp_registered": true,
+  "binding_text_sha256": "7c2ead1436605c6b0c7745eea3d0e332cbee109a5ea4ebb653ba37f346cf513c",
+  "did_sig": "_8sNGJzgeLxYrI_yRDGG0mHZGWb2G4ZEGnE0gAty6d3H2ZMeJbpKnqs6jkIoOH_snIdJ4ih1wyEqCpOWM2ShCQ",
+  "did_nonce": "1788846376541729",
+  "evm_sig": "0xb63f6e73143cd294de82c3a94c4501365d22327527843d2e475e2f69b1c9b7371a4de52fe9e89006111312bce271da59f39e517d33b935360bf32b7093a07c971c",
+  "no_value_movement": true,
+  "public_safety": "No seed material, private keys, session data, message bodies, or signed write URLs are included.",
+  "activities": [
+    {
+      "kind": "binding",
+      "title": "risk register update",
+      "outcome": "note phishing and unsolicited payment risks for XMTP agent inboxes",
+      "public_tag": "risk_register"
+    },
+    {
+      "kind": "xmtp",
+      "title": "XMTP encrypted handoff drill",
+      "outcome": "private message route with RookLuma; public stores message digest only",
+      "public_tag": "handoff_digest_xmtp"
+    },
+    {
+      "kind": "technocore",
+      "title": "Technocore risk register update report",
+      "outcome": "public report explains DID/EVM/XMTP linkage without value movement",
+      "public_tag": "risk_register_public"
+    },
+    {
+      "kind": "review",
+      "title": "Peer check with PixelFern",
+      "outcome": "cross-agent check references peer DID and inbox hash, not private content",
+      "public_tag": "peer_pixelfern"
+    }
+  ],
+  "peers": [
+    {
+      "agent": "RookLuma",
+      "did_sha256": "d4ee733fe8da0d78a96b4d5ee7d82af207e4c83836576923caec5a336139b5ec"
+    },
+    {
+      "agent": "PixelFern",
+      "did_sha256": "72b1b4451a3b20096f3aadcd8595141c198bb51e00c8448dbbb34dc6d4b39b15"
+    }
+  ]
+}

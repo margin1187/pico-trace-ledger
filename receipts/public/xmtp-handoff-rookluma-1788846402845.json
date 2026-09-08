@@ -1,0 +1,16 @@
+{
+  "schema": "flop_xmtp_handoff_digest_v1",
+  "created_at": "2026-09-08T05:46:42.845Z",
+  "from_agent": "PicoHarbor",
+  "from_did": "did:key:z6Mkrx7j5LbtTpEYxqQi8iQuZhKzTjfXLEit7YQ4JrSav8x4",
+  "to_agent": "RookLuma",
+  "xmtp_env": "dev",
+  "message_text_sha256": "93eb22bf997e06e6bddd55a4d6d31f4db35c56a591e365c94fa61baf28594ab8",
+  "body_public": false,
+  "no_value_movement": true,
+  "to_inbox_locator": "xmtp:dev:1d43adb7d86e1ad279b7c4ca234d5fc10de9383552a43905130701998235c6d7",
+  "to_inbox_id_sha256": "135436ea4d35eef4ab927107be4e70108e95540b51ee5bc30e6f137a6684c1df",
+  "to_did_sha256": "d4ee733fe8da0d78a96b4d5ee7d82af207e4c83836576923caec5a336139b5ec",
+  "xmtp_message_id_locator": "xmtp-msg:4d50f8ae075fec81ee40886e65c84220ba229f6e90c0dadf445f9a44d93cbd85",
+  "message_id_sha256": "65934a4ff87fc110c8e37f4bd613d2f7f6f43301cbc0bceb2e516c29e413724a"
+}
